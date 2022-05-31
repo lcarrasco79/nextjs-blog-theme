@@ -1,3 +1,5 @@
+import { useFlags } from "launchdarkly-react-client-sdk";
+
 const sunIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -78,12 +80,13 @@ const ThemeSwitcher = () => {
 };
 
 export default function Footer({ copyrightText }) {
+  let { showThemeSwitcher } = useFlags();
   return (
     <footer className="py-16 flex flex-col items-center">
       <p className="dark:text-white uppercase mb-3 font-bold opacity-60">
         {copyrightText}
       </p>
-
+      {showThemeSwitcher && (<ThemeSwitcher />)}
     </footer>
   );
 }
