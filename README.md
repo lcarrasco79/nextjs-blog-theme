@@ -36,10 +36,10 @@ From there, you can install the project's dependencies by running:
 yarn install
 ```
 
-Edit line 15 [`pages/_app.js`](pages/_app.js) and replace process.env.LAUNCHDARKLY_SDK_CLIENT_SIDE_ID with you **Client-side ID** noted before. Your code should look like this;
+Edit line 15 [`pages/_app.js`](pages/_app.js) and replace process.env.LAUNCHDARKLY_SDK_CLIENT_SIDE_ID with you **Client-side ID** noted before between single quotes. Your code should look like this;
 
 ```nodejs
-  clientSideID: '`12345678910',
+  clientSideID: '12345678910',
   user: {
       "key": "example_user",
       "name": "Example user",
