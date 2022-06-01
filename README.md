@@ -16,7 +16,7 @@ This is a customizable blog starter based on Bejamas Next.js Blog using:
 
 ### Setting up LaunchDrakly 
 
-If you do not have an account start by setting a trail account [here](https://launchdarkly.com/start-trial/)
+If you do not have an account start by setting a trial account [here](https://launchdarkly.com/start-trial/)
 
 Once you have your account login and create a feature flag:
 
