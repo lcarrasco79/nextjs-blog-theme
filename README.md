@@ -19,6 +19,12 @@ A customizable blog starter using:
 
 [Click here to watch the template walkthrough!](https://www.youtube.com/watch?v=63QZHs259dY)
 
+{% note %}
+
+**Note:** Owners and administrators can add outside collaborators to a repository.
+
+{% endnote %}
+
 ## Getting Started
 
 ---
