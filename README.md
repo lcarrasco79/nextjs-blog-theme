@@ -4,24 +4,26 @@ This is a customizable blog starter based on Bejamas Next.js Blog using:
 - [Tailwind](https://tailwindcss.com/) v3.0
 - Built-in [MDX](https://mdxjs.com/) v1 support
 - Includes modern design with dark & light themes
-- Feature management with [https://launchdarkly.com/](https://launchdarkly.com/) to demostrate and turn on and off the Theme Switcher feature
+- Feature management with [LaunchDarkly](https://launchdarkly.com/) to demostrate and turn on and off the Theme Switcher feature
 
 > 🎉 We’re really excited about the Bejamas + Netlify collaboration and we were going to celebrate it with some swag, but we realized we could put that money into supporting OSS and our ecosystem even more! After all, who needs another t-shirt or sticker?!
 >
 > [Click this link](https://oss-form.netlify.app/) to vote for your favorite Open Source project!
 
-![Preview of blog theme. Author named Jay Doe and blog's name is "Next.js Blog Theme" with one blog post](nextjs-blog-theme-preview.png)
-
-[Take a gander at the demo.](https://bejamas-nextjs-blog.netlify.app)
-
-[Click here to watch the template walkthrough!](https://www.youtube.com/watch?v=63QZHs259dY)
-
-
 ## Getting Started
 
 ---
 
-You can get started with this project in two ways: locally or using the [setup wizard](https://nextjs-wizard.netlify.app/).
+### Setting up LaunchDrakly 
+
+If you do not have an account start by setting a trail account [here](https://launchdarkly.com/start-trial/)
+
+Once you have your account login and create a feature flag
+
+> -Make sure the name of the feature flag is **Show Theme Switcher**
+> -Make sure you check the **SDKs using Client-side ID** option under **Settings** -> **Client-side SDK availability** ![image](https://user-images.githubusercontent.com/64344591/171323091-d24afc6f-c1c8-40af-a706-1f6a812fc004.png)
+
+> -The documentation to create a feature flag can be found [here](htps://docs.launchdarkly.com/home/getting-started/feature-flags)
 
 ### Setting Up Locally
 
