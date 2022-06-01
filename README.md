@@ -61,8 +61,16 @@ Play with the **Feature Flag** by turning it on and off so that the Theme Switch
 ![image](https://user-images.githubusercontent.com/64344591/171325161-472a97fa-b475-436b-8f3c-823f80b4bead.png)
 ![image](https://user-images.githubusercontent.com/64344591/171325310-2eda4779-d0ee-4531-a054-c966acdcfff2.png)
 
-If you want to check the implementation code of the feature flag inspect [`components/Footer.js`](components/Footer.js)
+If you want to check the implementation code of the feature flag, inspect [`components/Footer.js`](components/Footer.js)
 
 
 ### References
+
+[Using LaunchDarkly with Next.js](https://docs.launchdarkly.com/guides/platform-specific/nextjs) please check **Client-side rendering**
+
+If you wanto go fancy, you can implement targeting users matching certain rules.
+
+![image](https://user-images.githubusercontent.com/64344591/171326091-1a99bc7d-9c6f-45d1-b9fe-12b734219d88.png)
+
+As of now, the country is hardcoded in the code, but you could set the user as **anonymus** by setting that property to true and then obtain the country based on the IP using axios. A reference implementation can be found [here](https://codesandbox.io/s/50bi9?file=/src/App.js:256-696)
 
