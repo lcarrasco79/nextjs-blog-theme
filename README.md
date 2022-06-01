@@ -68,7 +68,7 @@ If you want to check the implementation code of the feature flag, inspect [`comp
 
 [Using LaunchDarkly with Next.js](https://docs.launchdarkly.com/guides/platform-specific/nextjs) please check **Client-side rendering**
 
-If you wanto go fancy, you can implement targeting users matching certain rules.
+If you wanto go fancy, you can implement targeting users matching certain rules (i.e. country).
 
 ![image](https://user-images.githubusercontent.com/64344591/171326091-1a99bc7d-9c6f-45d1-b9fe-12b734219d88.png)
 
