@@ -18,7 +18,7 @@ This is a customizable blog starter based on Bejamas Next.js Blog using:
 
 If you do not have an account start by setting a trial account [here](https://launchdarkly.com/start-trial/)
 
-Once you have your account login and create a feature flag:
+Once you have your account, login and create a feature flag:
 
 - Make sure the name of the feature flag is **Show Theme Switcher**
 - Make sure you check the **SDKs using Client-side ID** option under **Settings** -> **Client-side SDK availability** 
