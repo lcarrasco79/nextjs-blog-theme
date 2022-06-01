@@ -4,7 +4,7 @@ This is a customizable blog starter based on Bejamas Next.js Blog using:
 - [Tailwind](https://tailwindcss.com/) v3.0
 - Built-in [MDX](https://mdxjs.com/) v1 support
 - Includes modern design with dark & light themes
-- Feature management with [LaunchDarkly](https://launchdarkly.com/) to demostrate and turn on and off the Theme Switcher feature
+- Feature management with [LaunchDarkly](https://launchdarkly.com/) to demostrate turning on and off the Theme Switcher feature
 
 > 🎉 We’re really excited about the Bejamas + Netlify collaboration and we were going to celebrate it with some swag, but we realized we could put that money into supporting OSS and our ecosystem even more! After all, who needs another t-shirt or sticker?!
 >
@@ -21,19 +21,33 @@ If you do not have an account start by setting a trail account [here](https://la
 Once you have your account login and create a feature flag
 
 > -Make sure the name of the feature flag is **Show Theme Switcher**
-> -Make sure you check the **SDKs using Client-side ID** option under **Settings** -> **Client-side SDK availability** ![image](https://user-images.githubusercontent.com/64344591/171323091-d24afc6f-c1c8-40af-a706-1f6a812fc004.png)
-
+> -Make sure you check the **SDKs using Client-side ID** option under **Settings** -> **Client-side SDK availability** 
 > -The documentation to create a feature flag can be found [here](htps://docs.launchdarkly.com/home/getting-started/feature-flags)
 
-### Setting Up Locally
+Go to **Account settings** -> **Projects** click on the default project and take a note of the **Client-side ID**
 
-If you're doing it locally, start with clicking the [use this template](https://github.com/netlify-templates/nextjs-blog-theme/generate) button on GitHub. This will create a new repository with this template's files on your GitHub account. Once that is done, clone your new repository and navigate to it in your terminal.
+### Setting Up the App Locally
+
+Clone your [this repo](https://github.com/lcarrasco79/nextjs-blog-theme.git) and navigate to it in your terminal.
 
 From there, you can install the project's dependencies by running:
 
 ```shell
 yarn install
 ```
+
+Edit line 15 [`pages/_app.js`](pages/_app.js) and replace process.env.LAUNCHDARKLY_SDK_CLIENT_SIDE_ID with you **Client-side ID** noted before. Your code should look like this;
+
+```nodejs
+  clientSideID: '`12345678910',
+  user: {
+      "key": "example_user",
+      "name": "Example user",
+      "email": "User@example.com",
+      "country": "USA"
+  }
+```
+
 
 Finally, you can run your project locally with:
 
