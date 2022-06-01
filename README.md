@@ -1,13 +1,10 @@
-![Netlify Next.js Blog Template designed by Bejamas](github-banner.svg)
-
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/nextjs-blog-theme)
-
-A customizable blog starter using:
+This is a customizable blog starter based on Bejamas Next.js Blog using:
 
 - [Next.js](https://github.com/vercel/next.js) v12
 - [Tailwind](https://tailwindcss.com/) v3.0
 - Built-in [MDX](https://mdxjs.com/) v1 support
 - Includes modern design with dark & light themes
+- Feature management with [https://launchdarkly.com/](https://launchdarkly.com/) to demostrate and turn on and off the Theme Switcher feature
 
 > 🎉 We’re really excited about the Bejamas + Netlify collaboration and we were going to celebrate it with some swag, but we realized we could put that money into supporting OSS and our ecosystem even more! After all, who needs another t-shirt or sticker?!
 >
